@@ -1,0 +1,9 @@
+-r requirements.txt
+# LiteRT currently requires xdsl, which pins typing-extensions below 4.13.
+# These API versions support that same typing-extensions range.
+fastapi>=0.115,<0.116
+pydantic>=2.9,<2.11
+typing-inspection<0.4.2
+litert-torch>=0.10.0
+ai-edge-litert>=2.3.0
+torchvision
